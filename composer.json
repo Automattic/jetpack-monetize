@@ -5,16 +5,15 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.4",
-		"automattic/jetpack-admin-ui": "@dev",
-		"automattic/jetpack-feature-flags": "@dev",
-		"automattic/jetpack-status": "@dev",
-		"automattic/jetpack-wp-build-polyfills": "@dev"
+		"automattic/jetpack-admin-ui": "^0.14.13",
+		"automattic/jetpack-feature-flags": "^0.2.1",
+		"automattic/jetpack-status": "^7.1.1",
+		"automattic/jetpack-wp-build-polyfills": "^0.7.4"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "@dev",
+		"automattic/jetpack-changelogger": "^7.0.6",
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/jetpack-test-environment": "@dev",
-		"automattic/phpunit-select-config": "@dev"
+		"automattic/phpunit-select-config": "^1.0.12"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -51,15 +50,6 @@
 			"pnpm run test-coverage"
 		]
 	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "../../packages/*",
-			"options": {
-				"monorepo": true
-			}
-		}
-	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
